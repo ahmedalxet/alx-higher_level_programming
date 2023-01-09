@@ -1,0 +1,15 @@
+def test_my_list():
+    # Test the MyList class with a list of integers in ascending order
+    my_list = MyList([1, 2, 3])
+    my_list.print_sorted()  # Expected output: [1, 2, 3]
+
+    # Test the MyList class with a list of integers in descending order
+    my_list = MyList([3, 2, 1])
+    my_list.print_sorted()  # Expected output: [1, 2, 3]
+
+    # Test the MyList class with a list of integers in random order
+    my_list = MyList([2, 3, 1])
+    my_list.print_sorted()  # Expected output: [1, 2, 3]
+
+# Run the test
+test_my_list()
