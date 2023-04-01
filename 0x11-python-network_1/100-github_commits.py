@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""The script retrieves the 10 most recent commits from a
+specified GitHub repository and lists them.
+"""
 import requests
 import sys
 
