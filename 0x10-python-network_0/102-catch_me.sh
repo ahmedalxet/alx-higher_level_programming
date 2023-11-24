@@ -1,0 +1,3 @@
+#!/bin/bash
+# This script makes a request to 0.0.0.0:5000/catch_me that causes the server to respond with a message containing "You got me!", in the body of the response
+curl -s -L -X PUT -d "user_id=98" -H "Origin: HolbertonSchool" "0.0.0.0:5000/catch_me" -L -d "user_id=98" -H "Origin: HolbertonSchool" --header "Referer: 0.0.0.0:5000/catch_me" --header "Content-Type: application/x-www-form-urlencoded" --header "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" --header "Cookie: HoldTheDoor=0" -i -s -o /dev/null -w "You got me!"
